@@ -29,7 +29,7 @@ namespace Pool_1.Questions
             this.questions[index - 1].DisplayFullText();
             this.questions[index - 1].InitiateAlgorithm();
 
-            Console.WriteLine("Press any key to go back to the main menu.");
+            Console.WriteLine("\nPress any key to go back to the main menu.");
             Console.ReadKey();
         }
 

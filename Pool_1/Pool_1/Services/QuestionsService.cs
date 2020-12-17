@@ -25,9 +25,15 @@ namespace Pool_1.Services
             shortTexts.Add("Solve a linear equation.");
             shortTexts.Add("Solve a quadratic equation.");
             shortTexts.Add("Is n divisible by k?");
-            shortTexts.Add("Check leap year.");
+            shortTexts.Add("Is leap year?");
             shortTexts.Add("Swap with temp variable.");
             shortTexts.Add("Swap without temp variable.");
+            shortTexts.Add("Divisors of n.");
+            shortTexts.Add("Is n prime?");
+            shortTexts.Add("Inverse digits.");
+            shortTexts.Add("Is n divisble by k? Where n is between [a, b]");
+            shortTexts.Add("Is n a leap year? Where n is between [a, b]");
+            shortTexts.Add("Is n a palindrome?");
         }
 
         private void GenerateFullTexts()
@@ -38,6 +44,12 @@ namespace Pool_1.Services
             fullTexts.Add("Check if a year is a leap year.");
             fullTexts.Add("Swap two variables using a temp variable.");
             fullTexts.Add("Swap two variables without using other variables.");
+            fullTexts.Add("Display all the divisors of the number n.");
+            fullTexts.Add("Check if the number n is a prime number.");
+            fullTexts.Add("Display the digits of n in reverse order.");
+            fullTexts.Add("Check how many numbers are divisble by k in the range [a, b]");
+            fullTexts.Add("Check how many leap years are there in the range [a, b]");
+            fullTexts.Add("Check if n is a palindrome.");
         }
 
         public List<string> GetShortTexts()

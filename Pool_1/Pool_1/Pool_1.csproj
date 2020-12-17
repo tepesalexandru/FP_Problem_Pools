@@ -44,8 +44,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithms\AuxSwapAlgorithm.cs" />
+    <Compile Include="Algorithms\DivislbeRangeAlgorithm.cs" />
     <Compile Include="Algorithms\DivisorAlgorithm.cs" />
+    <Compile Include="Algorithms\DivisorsAlgorithm.cs" />
+    <Compile Include="Algorithms\InverseDigitsAlgorithm.cs" />
+    <Compile Include="Algorithms\IsPrimeAlgorithm.cs" />
     <Compile Include="Algorithms\LeapYearAlgorithm.cs" />
+    <Compile Include="Algorithms\LeapYearRangeAlgorithm.cs" />
+    <Compile Include="Algorithms\PalindromeAlgorithm.cs" />
     <Compile Include="Algorithms\SwapAlgorithm.cs" />
     <Compile Include="Helper.cs" />
     <Compile Include="Program.cs" />

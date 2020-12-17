@@ -25,6 +25,12 @@ namespace Pool_1.Services
             algorithms.Add(new LeapYearAlgorithm());
             algorithms.Add(new AuxSwapAlgorithm());
             algorithms.Add(new SwapAlgorithm());
+            algorithms.Add(new DivisorsAlgorithm());
+            algorithms.Add(new IsPrimeAlgorithm());
+            algorithms.Add(new InverseDigitsAlgorithm());
+            algorithms.Add(new DivislbeRangeAlgorithm());
+            algorithms.Add(new LeapYearRangeAlgorithm());
+            algorithms.Add(new PalindromeAlgorithm());
         }
 
         public List<Algorithm> GetAlgorithms()
