@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pool_1.Algorithms
 {
-    class LinearEquation : Algorithm
+    class LinearEquationAlgorithm : Algorithm
     {
         float a, b, x;
 

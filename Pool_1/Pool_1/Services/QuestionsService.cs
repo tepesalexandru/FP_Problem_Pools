@@ -22,14 +22,16 @@ namespace Pool_1.Services
 
         private void GenerateShortTexts()
         {
-            shortTexts.Add("Linear Equation.");
-            shortTexts.Add("Quadratic Equation.");
+            shortTexts.Add("Solve a linear equation.");
+            shortTexts.Add("Solve a quadratic equation.");
+            shortTexts.Add("Is n divisible by k?");
         }
 
         private void GenerateFullTexts()
         {
             fullTexts.Add("You have the following linear equation: ax + b = 0. Solve for x.");
             fullTexts.Add("You have the following quadratic equation: ax^2 + bx = 0. Solve for x.");
+            fullTexts.Add("Determine if n is divisible by k.");
         }
 
         public List<string> GetShortTexts()

@@ -18,8 +18,10 @@ namespace Pool_1.Services
 
         private void GenerateAlgorithms()
         {
-            algorithms.Add(new LinearEquation());
-            algorithms.Add(new LinearEquation());
+            algorithms.Add(new LinearEquationAlgorithm());
+            // Change this in the future
+            algorithms.Add(new LinearEquationAlgorithm());
+            algorithms.Add(new DivisorAlgorithm());
         }
 
         public List<Algorithm> GetAlgorithms()

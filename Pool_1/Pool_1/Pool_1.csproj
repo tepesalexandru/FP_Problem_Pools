@@ -43,10 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\DivisorAlgorithm.cs" />
     <Compile Include="Helper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Algorithms\LinearEquation.cs" />
+    <Compile Include="Algorithms\LinearEquationAlgorithm.cs" />
     <Compile Include="Questions\Question.cs" />
     <Compile Include="Questions\QuestionsContainer.cs" />
     <Compile Include="Questions\QuestionsFactory.cs" />
