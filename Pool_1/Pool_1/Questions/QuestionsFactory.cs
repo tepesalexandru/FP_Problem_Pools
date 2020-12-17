@@ -12,17 +12,19 @@ namespace Pool_1.Questions
     {
         public QuestionsContainer questionsContainer;
         private QuestionsService questionsService;
+        private AlgorithmsService algorithmService;
         public QuestionsFactory()
         {
             this.questionsContainer = new QuestionsContainer();
             this.questionsService = new QuestionsService();
+            this.algorithmService = new AlgorithmsService();
             this.InitiatePool1();
         }
         public void InitiatePool1()
         {
             List<string> shortTexts = questionsService.GetShortTexts();
             List<string> fullTexts = questionsService.GetFullTexts();
-            List<Algorithm> algorithms = questionsService.GetAlgorithms();
+            List<Algorithm> algorithms = algorithmService.GetAlgorithms();
             for (int i = 0; i < shortTexts.Count; i++)
             {
                 questionsContainer.AddQuestion(CreateQuestion(shortTexts[i], fullTexts[i], algorithms[i]));
