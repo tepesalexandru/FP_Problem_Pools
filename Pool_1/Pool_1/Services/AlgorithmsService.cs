@@ -22,6 +22,9 @@ namespace Pool_1.Services
             // Change this in the future
             algorithms.Add(new LinearEquationAlgorithm());
             algorithms.Add(new DivisorAlgorithm());
+            algorithms.Add(new LeapYearAlgorithm());
+            algorithms.Add(new AuxSwapAlgorithm());
+            algorithms.Add(new SwapAlgorithm());
         }
 
         public List<Algorithm> GetAlgorithms()
