@@ -34,6 +34,13 @@ namespace Pool_1.Services
             shortTexts.Add("Is n divisble by k? Where n is between [a, b]");
             shortTexts.Add("Is n a leap year? Where n is between [a, b]");
             shortTexts.Add("Is n a palindrome?");
+            shortTexts.Add("Sort 3 numbers.");
+            shortTexts.Add("Sort 5 numbers.");
+            shortTexts.Add("GCD and LCM of two numbers.");
+            shortTexts.Add("Prime factorization of n");
+            shortTexts.Add("Is n formed by only two different digits?");
+            shortTexts.Add("Calculate (periodic) fraction");
+            shortTexts.Add("I'll guess the number you're thinking of!");
         }
 
         private void GenerateFullTexts()
@@ -50,6 +57,13 @@ namespace Pool_1.Services
             fullTexts.Add("Check how many numbers are divisble by k in the range [a, b]");
             fullTexts.Add("Check how many leap years are there in the range [a, b]");
             fullTexts.Add("Check if n is a palindrome.");
+            fullTexts.Add("Sort three numbers a, b and c.");
+            fullTexts.Add("Sort five numbers a, b, c, d, e.");
+            fullTexts.Add("Calculate the Greatest Common Divisor and Lower Common Multiple of variables a and b.");
+            fullTexts.Add("Display the prime factorization of n");
+            fullTexts.Add("Check if n formed by only two different digits");
+            fullTexts.Add("Show decimal result of the fraction m/n, with possible repeating decimals.");
+            fullTexts.Add("I'll guess the number you're thinking of!");
         }
 
         public List<string> GetShortTexts()

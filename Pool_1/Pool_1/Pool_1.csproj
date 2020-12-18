@@ -44,15 +44,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithms\AuxSwapAlgorithm.cs" />
+    <Compile Include="Algorithms\BinarySearchAlgorithm.cs" />
     <Compile Include="Algorithms\DivislbeRangeAlgorithm.cs" />
     <Compile Include="Algorithms\DivisorAlgorithm.cs" />
     <Compile Include="Algorithms\DivisorsAlgorithm.cs" />
+    <Compile Include="Algorithms\FractionAlgorithm.cs" />
+    <Compile Include="Algorithms\GCD_LCM_Algorithm.cs" />
     <Compile Include="Algorithms\InverseDigitsAlgorithm.cs" />
     <Compile Include="Algorithms\IsPrimeAlgorithm.cs" />
     <Compile Include="Algorithms\LeapYearAlgorithm.cs" />
     <Compile Include="Algorithms\LeapYearRangeAlgorithm.cs" />
+    <Compile Include="Algorithms\NthLastDigitAlgorithm.cs" />
     <Compile Include="Algorithms\PalindromeAlgorithm.cs" />
+    <Compile Include="Algorithms\PrimeFactorizationAlgorithm.cs" />
+    <Compile Include="Algorithms\Sort3Algorithm.cs" />
+    <Compile Include="Algorithms\Sort5Algorithm.cs" />
     <Compile Include="Algorithms\SwapAlgorithm.cs" />
+    <Compile Include="Algorithms\TwoDigitsAlgorithm.cs" />
     <Compile Include="Helper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

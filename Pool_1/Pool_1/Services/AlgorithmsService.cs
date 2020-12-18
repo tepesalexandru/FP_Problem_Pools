@@ -31,6 +31,13 @@ namespace Pool_1.Services
             algorithms.Add(new DivislbeRangeAlgorithm());
             algorithms.Add(new LeapYearRangeAlgorithm());
             algorithms.Add(new PalindromeAlgorithm());
+            algorithms.Add(new Sort3Algorithm());
+            algorithms.Add(new Sort5Algorithm());
+            algorithms.Add(new GCD_LCM_Algorithm());
+            algorithms.Add(new PrimeFactorizationAlgorithm());
+            algorithms.Add(new TwoDigitsAlgorithm());
+            algorithms.Add(new FractionAlgorithm());
+            algorithms.Add(new BinarySearchAlgorithm());
         }
 
         public List<Algorithm> GetAlgorithms()
