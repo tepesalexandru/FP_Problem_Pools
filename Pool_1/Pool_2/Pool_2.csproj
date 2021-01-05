@@ -44,6 +44,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithms\Algorithm.cs" />
+    <Compile Include="Algorithms\AscendingSequenceAlgorithm.cs" />
+    <Compile Include="Algorithms\EqualToPosAlgorithm.cs" />
+    <Compile Include="Algorithms\EvenCountAlgorithm.cs" />
+    <Compile Include="Algorithms\FibonacciAlgorithm.cs" />
+    <Compile Include="Algorithms\FindNumberAlgorithm.cs" />
+    <Compile Include="Algorithms\MaxEqualSequenceAlgorithm.cs" />
+    <Compile Include="Algorithms\MinMaxAlgorithm.cs" />
+    <Compile Include="Algorithms\MonotoneSequenceAlgorithm.cs" />
+    <Compile Include="Algorithms\NegativePositiveAlgorithm.cs" />
+    <Compile Include="Algorithms\SumAndProductAlgorithm.cs" />
+    <Compile Include="Helper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Questions\Question.cs" />
