@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Pool_2.Questions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,9 @@ namespace Pool_2
     {
         static void Main(string[] args)
         {
+            QuestionsFactory questionsFactory = new QuestionsFactory();
+            questionsFactory.DisplayQuestions();
+            Console.ReadKey();
         }
     }
 }
