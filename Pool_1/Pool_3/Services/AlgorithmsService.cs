@@ -23,6 +23,11 @@ namespace Pool_3.Services
             algorithms.Add(new MinMaxAlgorithm());
             algorithms.Add(new CountMinMaxAlgorithm());
             algorithms.Add(new InsertValueAlgorithm());
+            algorithms.Add(new DeleteKAlgorithm());
+            algorithms.Add(new ReverseArrayAlgorithm());
+            algorithms.Add(new RotateAlgorithm());
+            algorithms.Add(new RotateKTimesAlgorithm());
+            algorithms.Add(new BinarySearchAlgorithm());
         }
 
         public List<Algorithm> GetAlgorithms()
