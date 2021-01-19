@@ -31,7 +31,17 @@ namespace Pool_3.Services
             shortTexts.Add("Reverse an array.");
             shortTexts.Add("Rotate an array.");
             shortTexts.Add("Rotate an array k times.");
-            shortTexts.Add("Find an element in an array.");
+            shortTexts.Add("Find an element in an array. (Binary Search)");
+            shortTexts.Add("Find all primes smaller than n.");
+            shortTexts.Add("Sort an array. (Selection Sort)");
+            shortTexts.Add("Sort an array. (Insertion Sort)");
+            shortTexts.Add("Move all zeros in an array to the end.");
+            shortTexts.Add("Delete all duplicates of an array. (without a secondary array).");
+            shortTexts.Add("Find Greated common divisor of an array.");
+            shortTexts.Add("Merge two arrays.");
+            shortTexts.Add("Find value of a position after the array is sorted.");
+            shortTexts.Add("Sort an array. (QuickSort)");
+            shortTexts.Add("Sort an array. (MergeSort)");
         }
 
         private void GenerateFullTexts()
@@ -46,6 +56,16 @@ namespace Pool_3.Services
             fullTexts.Add("Rotate once an array of n elements.");
             fullTexts.Add("Rotate k times an array of n elements.");
             fullTexts.Add("Find an element k in an array of n elements.");
+            fullTexts.Add("Find all prime numbers smaller than n.");
+            fullTexts.Add("Sort an array of n elements using the Selection Sort algorithm.");
+            fullTexts.Add("Sort an array of n elements using the Insertion Sort algorithm.");
+            fullTexts.Add("Move all zeros in an array of n elements to the end.");
+            fullTexts.Add("Delete all duplicates of an array of n elements. (without a secondary array).");
+            fullTexts.Add("Find Greated common divisor of an array of n elements.");
+            fullTexts.Add("Merge an array of n elements with another array of m elements.");
+            fullTexts.Add("Find value of a position after an array of n elements is sorted.");
+            fullTexts.Add("Sort an array of n elements using the QuickSort algorithm.");
+            fullTexts.Add("Sort an array of n elements using the MergeSort algorithm.");
         }
 
         public List<string> GetShortTexts()

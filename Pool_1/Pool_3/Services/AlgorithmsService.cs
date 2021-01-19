@@ -28,6 +28,16 @@ namespace Pool_3.Services
             algorithms.Add(new RotateAlgorithm());
             algorithms.Add(new RotateKTimesAlgorithm());
             algorithms.Add(new BinarySearchAlgorithm());
+            algorithms.Add(new ErathostenesAlgorithm());
+            algorithms.Add(new SelectionSortAlgorithm());
+            algorithms.Add(new InsertionSortAlgorithm());
+            algorithms.Add(new MoveZerosAlgorithm());
+            algorithms.Add(new DeleteDuplicatesAlgorithm());
+            algorithms.Add(new ArrayGCDAlgorithm());
+            algorithms.Add(new MergeAlgorithm());
+            algorithms.Add(new IndexAlgorithm());
+            algorithms.Add(new QuickSortAlgorithm());
+            algorithms.Add(new MergeSortAlgorithm());
         }
 
         public List<Algorithm> GetAlgorithms()

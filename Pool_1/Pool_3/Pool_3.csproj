@@ -44,15 +44,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithms\Algorithm.cs" />
+    <Compile Include="Algorithms\ArrayGCDAlgorithm.cs" />
     <Compile Include="Algorithms\BinarySearchAlgorithm.cs" />
     <Compile Include="Algorithms\CountMinMaxAlgorithm.cs" />
+    <Compile Include="Algorithms\DeleteDuplicatesAlgorithm.cs" />
     <Compile Include="Algorithms\DeleteKAlgorithm.cs" />
+    <Compile Include="Algorithms\ErathostenesAlgorithm.cs" />
     <Compile Include="Algorithms\FindKAlgorithm.cs" />
+    <Compile Include="Algorithms\IndexAlgorithm.cs" />
+    <Compile Include="Algorithms\InsertionSortAlgorithm.cs" />
     <Compile Include="Algorithms\InsertValueAlgorithm.cs" />
+    <Compile Include="Algorithms\MergeAlgorithm.cs" />
+    <Compile Include="Algorithms\MergeSortAlgorithm.cs" />
     <Compile Include="Algorithms\MinMaxAlgorithm.cs" />
+    <Compile Include="Algorithms\MoveZerosAlgorithm.cs" />
+    <Compile Include="Algorithms\QuickSortAlgorithm.cs" />
     <Compile Include="Algorithms\ReverseArrayAlgorithm.cs" />
     <Compile Include="Algorithms\RotateAlgorithm.cs" />
     <Compile Include="Algorithms\RotateKTimesAlgorithm.cs" />
+    <Compile Include="Algorithms\SelectionSortAlgorithm.cs" />
     <Compile Include="Algorithms\SumAlgorithm.cs" />
     <Compile Include="Helper.cs" />
     <Compile Include="Program.cs" />
