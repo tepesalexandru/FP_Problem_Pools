@@ -32,6 +32,12 @@ namespace Pool_2.Services
             shortTexts.Add("Find the nth fibonacci number.");
             shortTexts.Add("Is the sequence monotone?");
             shortTexts.Add("Max equal subsequence.");
+            shortTexts.Add("Compute the of the inverses of n numbers.");
+            shortTexts.Add("Find the numbers of number groups separated by zeros.");
+            shortTexts.Add("Is the sequence a rotated ascending sequence?");
+            shortTexts.Add("Is the sequence a rotated monotone sequence?");
+            shortTexts.Add("Is the sequence a bitonic sequence?");
+            shortTexts.Add("Is the sequence a rotated bitonic sequence?");
         }
 
         private void GenerateFullTexts()
@@ -46,6 +52,12 @@ namespace Pool_2.Services
             fullTexts.Add("Find the nth fibonacci number.");
             fullTexts.Add("Is the sequence monotone?");
             fullTexts.Add("Max equal subsequence.");
+            fullTexts.Add("Compute the of the inverses of n numbers.");
+            fullTexts.Add("Find the numbers of number groups separated by zeros.");
+            fullTexts.Add("Is the sequence a rotated ascending sequence?");
+            fullTexts.Add("Is the sequence a rotated monotone sequence?");
+            fullTexts.Add("Is the sequence a bitonic sequence?");
+            fullTexts.Add("Is the sequence a rotated bitonic sequence?");
         }
 
         public List<string> GetShortTexts()

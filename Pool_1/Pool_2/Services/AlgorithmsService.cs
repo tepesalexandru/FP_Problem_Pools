@@ -28,6 +28,12 @@ namespace Pool_2.Services
             algorithms.Add(new FibonacciAlgorithm());
             algorithms.Add(new MonotoneSequenceAlgorithm());
             algorithms.Add(new MaxEqualSequenceAlgorithm());
+            algorithms.Add(new InverseSumAlgorithm());
+            algorithms.Add(new GroupsAlgorithm());
+            algorithms.Add(new RotatedAscendingSequenceAlgorithm());
+            algorithms.Add(new RotatedMonotoneSequenceAlgorithm());
+            algorithms.Add(new BitonicSequenceAlgorithm());
+            algorithms.Add(new RotatedBitonicSequenceAlgorithm());
         }
 
         public List<Algorithm> GetAlgorithms()
