@@ -31,5 +31,12 @@ namespace Pool_3
             }
             return arr;
         }
+
+        public static void Swap(ref int a, ref int b)
+        {
+            int aux = a;
+            a = b;
+            b = aux;
+        }
     }
 }

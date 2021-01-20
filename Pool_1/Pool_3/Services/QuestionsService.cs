@@ -42,6 +42,8 @@ namespace Pool_3.Services
             shortTexts.Add("Find value of a position after the array is sorted.");
             shortTexts.Add("Sort an array. (QuickSort)");
             shortTexts.Add("Sort an array. (MergeSort)");
+            shortTexts.Add("Sort an array with double critaria.");
+            shortTexts.Add("Find majority element in an array.");
         }
 
         private void GenerateFullTexts()
@@ -66,6 +68,8 @@ namespace Pool_3.Services
             fullTexts.Add("Find value of a position after an array of n elements is sorted.");
             fullTexts.Add("Sort an array of n elements using the QuickSort algorithm.");
             fullTexts.Add("Sort an array of n elements using the MergeSort algorithm.");
+            fullTexts.Add("Sort an array E of n elements where each element has a weight W.");
+            fullTexts.Add("Find if an array of n elements has a majority element.");
         }
 
         public List<string> GetShortTexts()

@@ -38,6 +38,8 @@ namespace Pool_3.Services
             algorithms.Add(new IndexAlgorithm());
             algorithms.Add(new QuickSortAlgorithm());
             algorithms.Add(new MergeSortAlgorithm());
+            algorithms.Add(new DoubleSortAlgorithm());
+            algorithms.Add(new MajorityElementAlgorithm());
         }
 
         public List<Algorithm> GetAlgorithms()

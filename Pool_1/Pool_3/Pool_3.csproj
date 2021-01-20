@@ -49,11 +49,14 @@
     <Compile Include="Algorithms\CountMinMaxAlgorithm.cs" />
     <Compile Include="Algorithms\DeleteDuplicatesAlgorithm.cs" />
     <Compile Include="Algorithms\DeleteKAlgorithm.cs" />
+    <Compile Include="Algorithms\DoubleSortAlgorithm.cs" />
     <Compile Include="Algorithms\ErathostenesAlgorithm.cs" />
     <Compile Include="Algorithms\FindKAlgorithm.cs" />
     <Compile Include="Algorithms\IndexAlgorithm.cs" />
     <Compile Include="Algorithms\InsertionSortAlgorithm.cs" />
     <Compile Include="Algorithms\InsertValueAlgorithm.cs" />
+    <Compile Include="Algorithms\LexicographicAlgorithm.cs" />
+    <Compile Include="Algorithms\MajorityElementAlgorithm.cs" />
     <Compile Include="Algorithms\MergeAlgorithm.cs" />
     <Compile Include="Algorithms\MergeSortAlgorithm.cs" />
     <Compile Include="Algorithms\MinMaxAlgorithm.cs" />
@@ -63,6 +66,7 @@
     <Compile Include="Algorithms\RotateAlgorithm.cs" />
     <Compile Include="Algorithms\RotateKTimesAlgorithm.cs" />
     <Compile Include="Algorithms\SelectionSortAlgorithm.cs" />
+    <Compile Include="Algorithms\SetsAlgorithm.cs" />
     <Compile Include="Algorithms\SumAlgorithm.cs" />
     <Compile Include="Helper.cs" />
     <Compile Include="Program.cs" />
